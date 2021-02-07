@@ -1,0 +1,25 @@
+//
+// Button
+// --------------------------------------------------
+
+.btn{
+  @include box-shadow(0px, 2px, 4px, rgba(0, 0, 0, 0.2), $inset: false);
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+.btn--blue{
+  background: $blue-button;
+  color: $white-base;
+}
+
+ul.btn-group{
+  list-style: none;
+  text-align: center;
+  margin-bottom: 50px;
+
+  & li{
+    margin: 0 0 25px;
+  }
+
+}

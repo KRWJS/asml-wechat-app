@@ -1,0 +1,37 @@
+//
+// Slider 1.1
+// --------------------------------------------------
+
+#slider-one-one{
+
+  & .slide-1{
+    @include retina("../images/background/1-1/slide-1.jpg");
+    height: 100%;
+    position: relative;
+  }
+
+  & .slide-2{
+    @include retina("../images/background/1-1/slide-2.jpg");
+    height: 100%;
+    position: relative;
+  }
+
+  & .slide-3{
+    @include retina("../images/background/1-1/slide-3.jpg");
+    height: 100%;
+    position: relative;
+  }
+
+  & .slide-4{
+    @include retina("../images/background/1-1/slide-4.jpg");
+    height: 100%;
+    position: relative;
+  }
+
+  & .slide-5{
+    @include retina("../images/background/1-1/slide-5.jpg");
+    height: 100%;
+    position: relative;
+  }
+
+}

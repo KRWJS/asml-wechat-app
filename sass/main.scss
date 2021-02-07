@@ -1,0 +1,36 @@
+@charset 'utf-8';
+
+//Abstracts
+@import "abstracts/mixins";               // Sass Mixins
+@import "abstracts/variables";            // Sass Variables
+@import "abstracts/shame";                // Shame :(
+
+//Base
+@import "base/reset";                     // Reset
+@import "base/base";                      // Base
+@import "base/typography";                // Typography
+@import "base/fontawesome";               // Font Awesome
+
+//Components
+@import "components/button";              // Buttons
+@import "components/animation";           // Animation
+@import "components/slider";              // Slider
+
+//Layout
+@import "layout/header";                  // Header
+@import "layout/footer";                  // Footer
+@import "layout/utilities";               // Utilities
+@import "layout/responsive";              // Responsive (NOT USED Template File)
+
+//Pages
+@import "pages/index";                    // Index
+
+//Section
+@import "sliders/1-1-slider";             // Slider 1-1
+@import "sliders/1-2-slider";             // Slider 1-2
+@import "sliders/1-3-slider";             // Slider 1-3
+@import "sliders/2-2-slider";             // Slider 2-2
+
+//Vendor
+@import "vendor/jquery.fullPage.scss";    // FullPage.js
+@import "vendor/retina.scss";             // Retina Images

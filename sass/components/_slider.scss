@@ -1,0 +1,91 @@
+//
+// Slider
+// --------------------------------------------------
+
+.fp-slide,
+.fp-slidesContainer{
+  position: relative;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span{
+  height: 10px !important;
+  width: 10px !important;
+  background: $white-base !important;
+}
+
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span,
+#fp-nav ul li:hover a span,
+.fp-slidesNav ul li:hover a span{
+  margin: -2px 0 0 -2px !important;
+  background: $blue-base !important;
+}
+
+.fp-controlArrow{
+  bottom: 15px !important;
+  top: auto !important;
+  background: $blue-button !important;
+  padding: 10px;
+}
+
+.fp-controlArrow.fp-prev,
+.fp-controlArrow.fp-next{
+  border: none !important;
+  height: 35px !important;
+  width: 20px !important;
+}
+
+.fp-controlArrow.fp-prev{
+
+  &:before{
+    content: "\f053";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: $white-base;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+}
+
+.fp-controlArrow.fp-next{
+
+  &:before{
+    content: "\f054";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: $white-base;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+}
+
+.slide-content{
+  padding: 90px 30px 0;
+}
+
+.slide-cta{
+  position: absolute;
+  bottom: 13%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.slide-cta--2-2{
+  bottom: 10%;
+}

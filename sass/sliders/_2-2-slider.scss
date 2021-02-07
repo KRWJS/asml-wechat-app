@@ -1,0 +1,52 @@
+//
+// Slider 2.2
+// --------------------------------------------------
+
+section#intro{
+  @include retina($path: "../images/background/2-2/intro-background.jpg", $extras: bottom right);
+  height: 100%;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.content-2-2{
+  position: relative;
+
+  & a{
+    position: absolute;
+    bottom: 14%;
+    left: 50%;
+    transform: translate(-50%,0%);
+  }
+
+  & img{
+    margin-bottom: -5px;
+  }
+
+}
+
+.next-section{
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+
+.content-title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,0%);
+  width: 100%;
+  text-align: center;
+}
+
+.intro--2-2{
+
+  & p{
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0 15px;
+  }
+
+}

@@ -1,0 +1,24 @@
+//
+// Animation
+// --------------------------------------------------
+
+.arrow{
+  position: absolute;
+  color: $blue-base;
+  bottom: 3%;
+  left: 47%;
+  font-size: 20px; 
+  -webkit-animation: bounce 3s infinite ease-in-out;
+}
+
+@-webkit-keyframes bounce {
+	0%, 20%, 60%, 100%{
+    -webkit-transform: translateY(0);
+  }
+  40%{
+    -webkit-transform: translateY(-10px);
+  }
+	80%{
+    -webkit-transform: translateY(-10px);
+  }
+}

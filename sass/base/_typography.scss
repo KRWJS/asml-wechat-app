@@ -1,0 +1,67 @@
+//
+// Typography
+// --------------------------------------------------
+
+h1,
+h2,
+p{
+  color: $white-base;
+}
+
+h3,
+a{
+  color: $blue-base;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h1{
+  font-size: 36px;
+  line-height: 40px;
+  margin: 30px 0 40px;
+}
+
+h2{
+  font-size: 22px;
+  line-height: 26px;
+}
+
+h4{
+  font-size: 14px;
+  color: $blue-base;
+  text-align: center;
+}
+
+p{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+ul{
+  list-style: disc;
+  color: $blue-base;
+  font-size: 18px;
+  line-height: 26px;
+  margin-left: 15px;
+
+  & li{
+    margin: 0 0 5px;
+  }
+
+}
+
+a,
+a:hover,
+a:active,
+a:focus{
+  outline: none;
+  text-decoration: none;
+}
+
+.slide{
+
+  & h1{
+    color: $blue-base;
+  }
+
+}
